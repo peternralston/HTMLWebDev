@@ -2,63 +2,68 @@
 <html>
     <head>
         <title>Resteraunt Site</title>
+        <link href="restaurantStyles.css"
+            rel="stylesheet"
+            type="text/css"/>
     </head>
     <body>
         <center>
         <h1>Resteraunt Site</h1>
-        
+        <header>
         <hr>
            <a href="index.html">Home</a>
            <a href="menu.html">Menu</a> 
            <a href="contactUs.html">Contact Us</a>
         <hr>
+        </header>
         </center>
         <div>
             <form action="#" method="post">
-                    <div>
-                        <label id="NameLabel" for="Name">Name: </label>
-                        <input id="Name" name="Name" type="text" /><br/>
+                <div>
+                    <label id="NameLabel" for="Name">Name: </label>
+                    <input id="Name" name="Name" type="text" /><br/>
 
-                        <label id="EmailLabel" for="Email">Email: </label>
-                        <input id="Email" name="Email" type="text" /><br/>
+                    <label id="EmailLabel" for="Email">Email: </label>
+                    <input id="Email" name="Email" type="text" /><br/>
 
-                        <label id="PhoneLabel" for="Phone">Phone Number: </label>
-                        <input id="Phone" name="Phone" type="text" /><br/>
+                    <label id="PhoneLabel" for="Phone">Phone Number: </label>
+                    <input id="Phone" name="Phone" type="text" /><br/>
 
-                        Reason For Inquiry:
-                        <select>
-                            <option>Catering</option>
-                            <option>Private Party</option>
-                            <option>Feedback</option>
-                            <option>Other</option>
-                        </select>
-                        <br/>
+                    Reason For Inquiry:
+                    <select>
+                        <option>Catering</option>
+                        <option>Private Party</option>
+                        <option>Feedback</option>
+                        <option>Other</option>
+                    </select>
+                    <br/>
 
-                        <label id="MessageLabel" for="Message">Additional Information: </label>
-                        <textarea id="Message" name="Message"></textarea><br/>
+                    <label id="MessageLabel" for="Message">Additional Information: </label>
+                    <textarea id="Message" name="Message"></textarea><br/>
 
-                        Have you been to the resteraunt before?
-                        <input type="radio" name="Regular" value="Yes Regular" checked/>Yes
-                        <input type="radio" name="Regular" value="No Regular" />No<br/>
+                    Have you been to the resteraunt before?
+                    <input type="radio" name="Regular" value="Yes Regular" checked/>Yes
+                    <input type="radio" name="Regular" value="No Regular" />No<br/>
 
-                        Best days to contact you:
-                        <input type="checkbox" name="ContactDays" value="Monday" />M 
-                        <input type="checkbox" name="ContactDays" value="Tuesday" />T 
-                        <input type="checkbox" name="ContactDays" value="Wednesday" />W 
-                        <input type="checkbox" name="ContactDays" value="Thursday" />Th 
-                        <input type="checkbox" name="ContactDays" value="Friday" />F 
-
-                        <br/>
-                        
-                        <center>
-                        <input type="submit" id="SubmitButton" value="Send Request" />
-                        </center>
+                    Best days to contact you:
+                    <input type="checkbox" name="ContactDays" value="Monday" />M 
+                    <input type="checkbox" name="ContactDays" value="Tuesday" />T     
+                    <input type="checkbox" name="ContactDays" value="Wednesday" />W     
+                    <input type="checkbox" name="ContactDays" value="Thursday" />Th     
+                    <input type="checkbox" name="ContactDays" value="Friday" />F         
+                    <br/>
+                    
+                    <center>
+                    <input type="submit" id="SubmitButton" value="Send Request" />
+                    </center>
              </form>
         </div>
+    <footer>
         <hr>
         <center>
         city street state zipcode
         Telephone number
         </center>
+    </footer>
     </body>
 </html>
