@@ -1,5 +1,6 @@
 header,footer {
-    background-color: azure
+    background-color: azure;
+    text-align: left;
 }
 a {
     font-weight: bold
@@ -15,12 +16,12 @@ a {
 a:link {
     color: #44749d;
 }
+a:visited {
+    color:#251906
+}
 a:hover {
-    color: #8c2238;
+    color: #058516;
 }
 a:active {
     color: #8c2238;
-}
-#navigation {
-    align-content: center
 }
