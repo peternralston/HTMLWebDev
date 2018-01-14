@@ -6,36 +6,37 @@
             rel="stylesheet"
             type="text/css"/>
         <style>
-            a {
-            font-weight: bold
-            }
-            
+/*styling info*/
         </style>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        
     </head>
-    <body>
-        <h1>Resteraunt Site</h1>
+
+    <body style="background-image: ">
+        <h1>Peter's Home Kitchen</h1>
         <header>
-            <div id="navigation">
-            <hr>
-               <a href="index.html">Home</a>
-               <a href="menu.html">Menu</a> 
-               <a href="contactUs.html">Contact Us</a>
-            <hr>
-            </div>
+                <div id="navigation">
+                        <hr>
+                            <p><a href="index.html">Home</a>
+                            <a href="menu.html">Menu</a> 
+                            <a href="contactUs.html">Contact Us</a></p>
+                        <hr>
+                    </div>
             </header>
         <div>
             <form action="#" method="post">
                 <div>
-                    <label id="NameLabel" for="Name">Name: </label>
-                    <input id="Name" name="Name" type="text" /><br/>
+                    <label id="NameLabel" for="Name"><bold>Name: </bold></label><br>
+                    <input id="Name" name="Name" type="text" required/><br/>
 
-                    <label id="EmailLabel" for="Email">Email: </label>
-                    <input id="Email" name="Email" type="text" /><br/>
+                    <label id="EmailLabel" for="Email"><bold>Email: </bold></label><br>
+                    <input id="Email" name="Email" type="text" required/><br/>
 
-                    <label id="PhoneLabel" for="Phone">Phone Number: </label>
-                    <input id="Phone" name="Phone" type="text" /><br/>
+                    <label id="PhoneLabel" for="Phone">Phone Number: </label><br>
+                    <input id="Phone" name="Phone" type="text" required/><br/>
 
                     Reason For Inquiry:
+                    <label id="dropDown">
                     <select>
                         <option>Catering</option>
                         <option>Private Party</option>
@@ -43,9 +44,10 @@
                         <option>Other</option>
                     </select>
                     <br/>
+                    </label>
 
                     <label id="MessageLabel" for="Message">Additional Information: </label>
-                    <textarea id="Message" name="Message"></textarea><br/>
+                    <textarea id="Message" name="Message" required></textarea><br/>
 
                     Have you been to the resteraunt before?
                     <input type="radio" name="Regular" value="Yes Regular" checked/>Yes
@@ -64,12 +66,18 @@
                     </center>
              </form>
         </div>
-    <footer>
-        <hr>
-        <p>
-        city street state zipcode<br/>
-        Telephone number
-        </p>
-    </footer>
+        <div id="footer">
+                <footer>    
+                <hr>
+                    <p>&copy; 2018 Ralston Consulting, LLC. All Rights Reserved.</p>
+                    <address>
+                        16330 Flagstaff Ave W.<br/>
+                        Rosemount, MN 55068<br/>
+                        612-234-7571<br/>
+                        <a href="mailto:peternralston@gmail.com">peternralston@gmail.com</a>
+                    </address>
+                    <p><a href="https://www.thesoftwareguild.com" target="_blank">The Software Guild</a></p>
+                </footer> 
+            </div>
     </body>
 </html>

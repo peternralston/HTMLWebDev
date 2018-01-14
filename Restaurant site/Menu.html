@@ -6,65 +6,115 @@
             rel="stylesheet"
             type="text/css"/>
         <style>
-            a {
-            font-weight: bold
+            tbody tr:nth-child(even) {
+                background-color: rgb(219, 182, 139);
             }
+
         </style>
+
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
     </head>
     <body>
-        <h1>Resteraunt Site</h1>
+        <h1>Peter's Home Kitchen</h1>
         <header>
-            <div id="navigation">
-                <hr>
-                   <a href="index.html">Home</a>
-                   <a href="menu.html">Menu</a> 
-                   <a href="contactUs.html">Contact Us</a>
-                <hr>
-            </div>
+                <div id="navigation">
+                        <hr>
+                            <p><a href="index.html">Home</a>
+                            <a href="menu.html">Menu</a> 
+                            <a href="contactUs.html">Contact Us</a></p>
+                        <hr>
+                </div>
         </header>
-        <div>
-            <center>
-            <table border="0" width="50%">
-                    <tr bgcolor="white">
-                        <th>Yummy Thing 1</th>
-                        <th>Yummy Thing 2</th>
-                        <th>Yummy Thing 3</th>
-                    </tr>
-                    <tr>
-                        <td align="center">This is a description of how good yummy thing 1 is!</td>
-                        <td align="center">This is a description of how good yummy thing 2 is!</td>
-                        <td align="center">This is a description of how good yummy thing 3 is!</td>
-                    </tr>
-                    <tr>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                    </tr>
-                    <tr bgcolor="white">
-                        <th>Yummy Thing 1</th>
-                        <th>Yummy Thing 2</th>
-                        <th>Yummy Thing 3</th>
-                    </tr>
-                    <tr>
-                        <td align="center">This is a description of how good yummy thing 1 is!</td>
-                        <td align="center"> This is a description of how good yummy thing 2 is!</td>
-                        <td align="center">This is a description of how good yummy thing 3 is!</td>
-                    </tr>
-                    <tr>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                    </tr>    
-
-                </table>
-            </center>
+        <div id=mainContent>
+            <!-- Divtastic menu items go here -->
         </div>
-    <footer>
-        <hr>
-        <p>
-        city street state zipcode<br/>
-        Telephone number
-        </p>
-    </footer>
+
+        <div id="mainBody">
+            <div id="menu";>
+                <table>
+                    <tr>
+                        <td><div><img src="images\perfectSteak4.jpg"
+                            alt="image of herbs, spices and spoons"
+                            style="width: 400px;"><h3>The Perfect Steak</h3>
+                                <p>This amazing steak is made perfect every time. Preperation for this piece of Prime Rib takes a full 24 hours and is seared to a perfect Maillard reaction and slow cooked on top of a bed of Rosemary at a temp of 200 degrees until an exact internal temp for medium rare is acheaved.</p>
+                                <p>Served with a side of Union Depot zucchini.</p></div></td>
+                            <td><div><img src="images\ossoBuko.jpg"
+                                alt="image of herbs, spices and spoons"
+                                style="width: 400px;"><h3>Osso Buko - the most expensive dish in the world!</h3><p>Originating from Spain this dish is served with either Veal or Lamb and is slow cooked in a dry white wine with vegitables.  </p></div></td>
+                                <td><div><img src="images\eggsWaffles.jpg"
+                                    alt="image of herbs, spices and spoons"
+                                    style="width: 400px;"><h3>Eggs and Waffles</h3><p>Just your classic american breakfast!</p></div></td>
+                    </tr>
+                    <tr>
+                            <td><div><img src="images\ingredients1.jpg"
+                                alt="image of herbs, spices and spoons"
+                                style="width: 400px;"><h3>Coconut Cauliflower Curry Mash DIY</h3><p>This dish is a cook it yourself and comes with all the best handpicked ingredients.</p></div></td>
+                                <td><div><img src="images\ingredients2.jpg"
+                                    alt="image of herbs, spices and spoons"
+                                    style="width: 400px;"><h3>Osso Buko</h3><p>This dish is a cook it yourself and comes with all the best handpicked ingredients.</p></div></td>
+                                    <td><div><img src="images\ingredients3.jpg"
+                                        alt="image of herbs, spices and spoons"
+                                        style="width: 400px;"><h3>Roma Tomato Basil tomato Sauce</h3><p>Make your own homemade pasta sauce from scratch from all the best ingredients.</p></div></td>
+                    </tr>
+                </table>
+                <!--
+                <div id="topRow">
+                    <div class="MenuItem"><h2>Menu Item</h2><p>this is a description of item</p></div>
+                    <div class="MenuItem"><h2>Menu Item</h2><p>this is a description of item</p></div>
+                    <div class="MenuItem"><h2>Menu Item</h2><p>this is a description of item</p></div>
+                </div><br>
+
+                <div id="bottomRow">
+                        <div class="MenuItem"><h2>Menu Item</h2><p>this is a description of item</p></div>
+                        <div class="MenuItem"><h2>Menu Item</h2><p>this is a description of item</p></div>
+                        <div class="MenuItem"><h2>Menu Item</h2><p>this is a description of item</p></div>
+                </div><br>-->
+            </div>
+            <div id="beverages">
+                    <table>
+                        <tbody>
+                            <tr bgcolor="white";>
+                                <th align="left">Beverages</th>
+                                <th align="left">Price</th>
+                            </tr>
+                            <tr>
+                                <td align="left">Cherry Coke</td>
+                                <td>$1.00</td>
+                            </tr>
+                            <tr>
+                                <td align="left">Dr. Pepper</td>
+                                <td>$1.00</td>
+                            </tr>
+                            <tr>
+                                <td align="left">Milk</td>
+                                <td>$2.00</td>
+                            </tr>
+                            <tr>
+                                <td align="left">Water</td>
+                                <td>Free</td>
+                            </tr>
+                            <tr>
+                                <td align="left">Hot Tea</td>
+                                <td>$2.00</td>
+                            </tr>
+                            <tr>
+                            </tr></table>
+                        </tbody>
+            </div>
+        </div>
+        <div id="footer">
+                <footer>    
+                <hr>
+                    <p>&copy; 2018 Ralston Consulting, LLC. All Rights Reserved.</p>
+                    <address>
+                        16330 Flagstaff Ave W.<br/>
+                        Rosemount, MN 55068<br/>
+                        612-234-7571<br/>
+                        <a href="mailto:peternralston@gmail.com">peternralston@gmail.com</a>
+                    </address>
+                    <p><a href="https://www.thesoftwareguild.com" target="_blank">The Software Guild</a></p>
+                </footer> 
+            </div>
     </body>
 </html>
